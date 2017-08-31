@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS 실습</title>
+<script>
+function sum(){
+	var num = document.gerElementById("num").value;
+	console.log(num);
+	var sum = 0;
+	for(var i = 1; i <= num; i++){
+	sum += i;
+	}
+	doucument.getElementById("result").innerHTMl = "1부터" + num + "까지의 합은" + sum + "입니다.";
+	}
+</script>
+</head>
+<body>
+<input type = "text" name="num" id="num" size = "5">
+<input type="button" onclick="sum();" value="계산" >
+<p id="result"></p>
+</body>
+</html>
