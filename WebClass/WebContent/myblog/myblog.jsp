@@ -49,7 +49,7 @@
 	    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
 	    <li class="nav-item dropdown">
 	      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	    	<%= user.getName() + "님" %>
+	    	<%= user.getName() + "님" %>     
 	      </a>
 	      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
 	      	<form action = "/WebClass/bloglogout" method="post">    	
