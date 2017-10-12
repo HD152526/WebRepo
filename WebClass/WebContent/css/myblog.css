@@ -7737,7 +7737,7 @@ a.text-dark:focus, a.text-dark:hover {
 	width:30%;
 }
 .jumbotron{
-	background-image:url('../image/배경화면.jpg');
+	background-image:url('../image/backgroundimg.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
     height:700px;

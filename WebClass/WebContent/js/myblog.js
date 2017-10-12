@@ -14,21 +14,21 @@ function register() {
  	 }
 	//로그인 결과 
 	$(document).ready(function () {
- 		$('#LoginForm').submit(function(event){
- 			event.preventDefault();
- 			
- 			var id = $('#id').val();
- 			var pwd = $('#pwd').val();
- 			console.log(id, pwd);
- 			
- 			$.post("http://httpbin.org/post",
- 				{ "id" : id, "pwd" : pwd },
- 				function(data){
- 					var myModal = $('#myModal');
- 					myModal.modal();
- 					myModal.find('.modal-body').text(data.form.id + '님 로그인되었습니다.');
- 				});
- 		});
+// 		$('#LoginForm').submit(function(event){
+// 			event.preventDefault();
+// 			
+// 			var id = $('#id').val();
+// 			var pwd = $('#pwd').val();
+// 			console.log(id, pwd);
+// 			
+// 			$.post("/WebClass/bloglogin",
+// 				{ "id" : id, "pwd" : pwd },
+// 				function(data){
+// 					var myModal = $('#myModal');
+// 					myModal.modal();
+// 					myModal.find('.modal-body').text(data.form.id + '님 로그인되었습니다.');
+// 				});
+// 		});
  		
  		$('#signUpForm').submit(function(event){	
  			event.preventDefault();
